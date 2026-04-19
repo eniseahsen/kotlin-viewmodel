@@ -45,4 +45,22 @@ Her kullanıcı için UI kartı oluşturur.
 ###  Görevi:
 Ana ekranı oluşturur ve UI state’e göre ekranı yönetir.
 
+# BAĞIMLILIKLAR 
 
+
+
+
+
+```kotlin
+dependencies {
+// ViewModel ve Lifecycle
+implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.0")
+// Retrofit ve Gson
+implementation("com.squareup.retrofit2:retrofit:2.11.0")
+implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+// Coroutines
+implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+// Material Icons (opsiyonel)
+implementation("androidx.compose.material:material-icons-extended:1.6.8")
+}
