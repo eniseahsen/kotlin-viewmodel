@@ -34,12 +34,15 @@ API ile ViewModel arasında köprü kurar.
 - UI state yönetmek
 
 ##  [User UI State](app/src/main/java/eu/tutorials/mvvm/viewmodel/UserUiState.kt)
+###  Görevi:
 UI'ın alabileceği durumları tanımlar
 
 ##  [User Item](app/src/main/java/eu/tutorials/mvvm/ui/theme/components/UserItem.kt)
+###  Görevi:
 Her kullanıcı için UI kartı oluşturur.
 
 ##  [User List Screen](app/src/main/java/eu/tutorials/mvvm/ui/theme/screen/UserListScreen.kt)
+###  Görevi:
 Ana ekranı oluşturur ve UI state’e göre ekranı yönetir.
 
 
