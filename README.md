@@ -48,7 +48,6 @@ Ana ekranı oluşturur ve UI state’e göre ekranı yönetir.
 ## Bağımlılıklar
 
 AndroidManifest.xml dosyasına internet izninin eklenmesi gerekmektedir:
-```kotlin
 <uses-permission android:name="android.permission.INTERNET"/>
 
 
