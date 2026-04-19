@@ -7,9 +7,8 @@ Projede şu teknolojiler ve mimari yapı kullanılmıştır:
 - StateFlow (reaktif state yönetimi)
 - Jetpack Compose (modern UI)
 
-#  DATA KATMANI
-
-##  (data katmanı)[model/User.kt]
+##  DATA KATMANI
+[data katmanı](app/src/main/java/eu/tutorials/mvvm/data/model/User.kt)
 
 ###  Görevi:
 API’den gelen kullanıcı verisini temsil eden data class.
