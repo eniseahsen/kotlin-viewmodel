@@ -7,8 +7,15 @@ Projede şu teknolojiler ve mimari yapı kullanılmıştır:
 - StateFlow (reaktif state yönetimi)
 - Jetpack Compose (modern UI)
 
-##  DATA KATMANI
-[data katmanı](app/src/main/java/eu/tutorials/mvvm/data/model/User.kt)
-
+##  [Data Katmanı](app/src/main/java/eu/tutorials/mvvm/data/model/User.kt)
 ###  Görevi:
 API’den gelen kullanıcı verisini temsil eden data class.
+
+##  [Api Service](app/src/main/java/eu/tutorials/mvvm/data/remote/ApiService.kt)
+###  Görevi:
+API endpoint’lerini tanımlar. Retrofit HTTP isteğini buradan yapar
+
+##  [Retrofit Instance](app/src/main/java/eu/tutorials/mvvm/data/remote/RetrofitInstance.kt)
+###  Görevi:
+-Retrofit nesnesini oluşturur.
+-
