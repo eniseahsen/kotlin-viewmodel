@@ -17,5 +17,7 @@ API endpoint’lerini tanımlar. Retrofit HTTP isteğini buradan yapar
 
 ##  [Retrofit Instance](app/src/main/java/eu/tutorials/mvvm/data/remote/RetrofitInstance.kt)
 ###  Görevi:
--Retrofit nesnesini oluşturur.
--
+Retrofit nesnesini oluşturur.
+- Base URL burada tanımlanır
+- Gson converter eklenir
+- Singleton yapı kullanılır
