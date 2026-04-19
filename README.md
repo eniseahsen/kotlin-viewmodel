@@ -45,10 +45,11 @@ Her kullanıcı için UI kartı oluşturur.
 ###  Görevi:
 Ana ekranı oluşturur ve UI state’e göre ekranı yönetir.
 
-# BAĞIMLILIKLAR 
+## Bağımlılıklar
 
-
-
+AndroidManifest.xml dosyasına internet izninin eklenmesi gerekmektedir:
+```kotlin
+<uses-permission android:name="android.permission.INTERNET"/>
 
 
 ```kotlin
@@ -64,3 +65,4 @@ implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 // Material Icons (opsiyonel)
 implementation("androidx.compose.material:material-icons-extended:1.6.8")
 }
+
